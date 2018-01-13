@@ -1,5 +1,5 @@
 {
-    "name": "luishuh/toastr-laravel",
+    "name": "luishuh/toastr-laravel-lh",
     "description": "Toastr notifications in laravel, new feature added. This library was created by roksta21@gmail.com.",
     "type": "library",
     "keywords": ["notifications", "alert", "laravel notifications"],
