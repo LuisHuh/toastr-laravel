@@ -1,6 +1,6 @@
 {
     "name": "LuisHuh/toastr-laravel",
-    "description": "Toastr notifications in laravel",
+    "description": "Toastr notifications in laravel, new feature added. This library was created by roksta21@gmail.com.",
     "type": "library",
     "keywords": ["notifications", "alert", "laravel notifications"],
     "license": "MIT",
@@ -8,10 +8,6 @@
         {
             "name": "LuisHuh",
             "email": "luisenriquehuhpuc@hotmail.com"
-        },
-        {
-            "name": "roksta",
-            "email": "roksta21@gmail.com"
         }
     ],
     "autoload": {
