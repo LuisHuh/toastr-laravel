@@ -1,6 +1,6 @@
 <?php 
 
-namespace Roksta\Toastr;
+namespace LuisHuh\Toastr;
 
 use Illuminate\Support\Facades\Facade;
 

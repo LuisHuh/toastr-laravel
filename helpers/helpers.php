@@ -3,7 +3,7 @@ if (! function_exists('toast')) {
     /**
      * Toastr helper function
      *
-     * @return \Roksta\Toastr\Toast
+     * @return \LuisHuh\Toastr\Toast
      */
 
     function toast()

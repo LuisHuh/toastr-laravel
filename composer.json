@@ -1,19 +1,15 @@
 {
-    "name": "luishuh/toastr-laravel-lh",
+    "name": "luishuh/toastr-laravel-v2",
     "description": "Toastr notifications in laravel, new feature added. This library was created by roksta21@gmail.com.",
     "type": "library",
+    "homepage": "https://github.com/LuisHuh/toastr-laravel",
     "keywords": ["notifications", "alert", "laravel notifications"],
     "license": "MIT",
     "authors": [        
         {
             "name": "LuisHuh",
-            "email": "luisenriquehuhpuc@hotmail.com"
-        }
-    ],
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/luishuh/toastr-laravel"
+            "email": "luisenriquehuhpuc@hotmail.com",
+            "role": "Developer"
         }
     ],
     "autoload": {
@@ -21,7 +17,7 @@
             "helpers/helpers.php"
         ],
         "psr-4": {
-            "Roksta\\Toastr\\": "src/"
+            "LuisHuh\\Toastr\\": "src/"
         }
     },
     "require": {
@@ -30,6 +26,5 @@
     },
     "require-dev": {
         "mockery/mockery": "dev-master"
-    }
-    
+    }    
 }

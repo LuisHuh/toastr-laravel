@@ -1,10 +1,10 @@
 <?php
 /**
  * @category PHP
- * @author   Samson Mbuthia <roksta21@gmail.com>
+ * @author   LuisHuh <luisenriquehuhpuc@hotmail.com>
  */
 
-namespace Roksta\Toastr;
+namespace LuisHuh\Toastr;
 
 use Session;
 
@@ -248,7 +248,7 @@ class Toastr
 
     public function view()
     {
-        return "@include('vendor.roksta.toastr')";
+        return "@include('vendor.luishuh.toastr')";
     }
 
 }

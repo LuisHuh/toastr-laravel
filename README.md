@@ -21,28 +21,28 @@ then build via npm `npm run prod`.
 
 Install via composer
 ```bash
-    composer require roksta/toast
+    composer require luishuh/toastr-laravel-v2
 ```
 
 Include the service provider and its alias within the `config/app.php`.
 
 ```php
 'providers' => [
-    Roksta\Toastr\ToastrServiceProvider::class,
+    LuisHuh\Toastr\ToastrServiceProvider::class,
 ];
 
 'aliases' => [
-    'Toast' => Roksta\Toastr\Toast::class,
+    'Toast' => LuisHuh\Toastr\Toast::class,
 ];
 ```
 
 Run 
 ```bash
-php artisan vendor:publish --provider="Roksta\Toastr\ToastrServiceProvider"
+php artisan vendor:publish --provider="LuisHuh\Toastr\ToastrServiceProvider"
 ```
-to publish the package view in your resources/assets/vendor/roksta/toastr.blade.php
+to publish the package view in your resources/assets/vendor/luishuh/toastr.blade.php
 
-Add `@include('vendor.roksta.toastr')` in your main view, eg,
+Add `@include('vendor.luishuh.toastr')` in your main view, eg,
 ```html
     <!DOCTYPE html>
     <html>
@@ -53,7 +53,7 @@ Add `@include('vendor.roksta.toastr')` in your main view, eg,
     <body>
         <div id="app"></div>
         <script type="text/javascript" src="js/app.js"></script>
-        @include('vendor.roksta.toastr')
+        @include('vendor.luishuh.toastr')
     </body>
     </html>
 ```
