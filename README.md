@@ -21,7 +21,7 @@ then build via npm `npm run prod`.
 
 Install via composer
 ```bash
-    composer require luishuh/toastr-laravel-v2
+    composer require "luishuh/toastr-laravel-v2:@dev"
 ```
 
 Include the service provider and its alias within the `config/app.php`.
