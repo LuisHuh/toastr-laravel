@@ -72,3 +72,87 @@ You may specify the timeout duration by
 ```php
     toast()->success('message', 'title')->timeOut(5000);
 ```
+You may activate the close button by
+```php
+    toast()->success('message', 'title')->closeButton(true);
+```
+You may activate debug by
+```php
+    toast()->success('message', 'title')->debug(true);
+```
+You may add the newest on top by
+```php
+    toast()->success('message', 'title')->newestOnTop(true);
+```
+You may activate the progressBar by
+```php
+    toast()->success('message', 'title')->progressBar(true);
+```
+You may change the position by
+```php
+    toast()->success('message', 'title')->positionClass('top-right');
+    toast()->success('message', 'title')->positionClass('bottom-right');
+    toast()->success('message', 'title')->positionClass('bottom-left');
+    toast()->success('message', 'title')->positionClass('top-left');
+    toast()->success('message', 'title')->positionClass('top-full-width');
+    toast()->success('message', 'title')->positionClass('bottom-full-width');
+    toast()->success('message', 'title')->positionClass('top-center');
+    toast()->success('message', 'title')->positionClass('bottom-center');
+```
+You may prevent duplicates by
+```php
+    toast()->success('message', 'title')->preventDuplicates(true);
+```
+You may specify the show duration by 
+```php
+    toast()->success('message', 'title')->showDuration(300);
+```
+You may specify the hide duration by 
+```php
+    toast()->success('message', 'title')->hideDuration(1000);
+```
+You may extend the timeout duration by
+```php
+    toast()->success('message', 'title')->extendedTimeOut(1000);
+```
+you may specify the speed of the animation to show and hide toastr by
+```php
+    toast()->success('message', 'title')->showEasing('swing');
+    toast()->success('message', 'title')->hideEasing('linear');
+```
+you can specify the type of the animation to show and hide toastr by
+```php
+    toast()->success('message', 'title')->showMethod('fadeIn');
+    toast()->success('message', 'title')->hideMethod('fadeOut');
+```
+you may add behavior on toast click
+```javascript
+    <script type="text/javascript">
+        function behavior(){
+            alert("Hello World");
+        }
+    </script>
+```
+```php
+    toast()->success('message', 'title')->onclick('behavior');    
+```
+you may add all the options, you do not need to add all, only the ones you need.
+```php
+    toast()->success('message', 'title')->options([
+        'closeButton'       =>  true,
+        'debug'             =>  false,
+        'newestOnTop'       =>  false,
+        'progressBar'       =>  true,
+        'positionClass'     =>  'toast-top-right',
+        'preventDuplicates' =>  false,
+        'onclick'           =>  'behavior',
+        'showDuration'      =>  300,
+        'hideDuration'      =>  1000,
+        'timeOut'           =>  5000,
+        'extendedTimeOut'   =>  1000,
+        'showEasing'        =>  'swing',
+        'hideEasing'        =>  'linear',
+        'showMethod'        =>  'fadeIn',
+        'hideMethod'        =>  'fadeOut'
+    ]);    
+```

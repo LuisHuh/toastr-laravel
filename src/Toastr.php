@@ -62,6 +62,19 @@ class Toastr
         return $this;
     }
 
+    public function closeButton($bool = false){
+
+        $toast = Session::get('toast');
+
+        if ($toast->has('options')) {
+            $toast['options']->put('closeButton', $bool);
+        } else {
+            $toast->put('options', collect(['closeButton' => $bool]));
+        }
+
+        return $this;
+    }
+
     public function debug($bool = false){
 
         $toast = Session::get('toast');
