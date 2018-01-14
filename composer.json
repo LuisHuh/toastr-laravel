@@ -20,6 +20,7 @@
             "LuisHuh\\Toastr\\": "src/"
         }
     },
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
         "illuminate/session": "~5.0"
